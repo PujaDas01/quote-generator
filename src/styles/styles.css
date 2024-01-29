@@ -8,13 +8,18 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* color: white; */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .quote-generator {
     text-align: center;
-    background-color: #fff;
-    /* background-color: black; */
+    background-color: black;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -28,11 +33,9 @@ body {
     font-size: 1.5rem;
     margin: 20px 0;
     padding: 20px;
-    border-left: 4px solid #3498db;
-    /* border-left: 4px solid black; */
+    border-left: 4px solid teal;
     background-color: #ecf0f1;
     border-radius: 8px;
-
 }
 
 footer {
@@ -46,12 +49,20 @@ footer {
     font-size: 1.2rem;
     padding: 12px 24px;
     margin-top: 20px;
-    background-color: #3498db;
+    margin-bottom: 20px;
+    background-color: teal;
     color: #fff;
     border-radius: 4px;
     transition: background-color 0.3s ease;
 }
 
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
 .new-quote-button:hover {
-    background-color: #2980b9;
+    background-color: rgb(21, 116, 116);
 }
