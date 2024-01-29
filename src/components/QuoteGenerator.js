@@ -5,7 +5,8 @@ import '../styles/styles.css';
 const QuoteGenerator = () => {
   return (
     <div className='quote-generator'>
-        <Quote />
+        <Quote text='random text' author='random author' />
+        <button className='new-quote-button'>New Quote</button>
     </div>
   )
 }

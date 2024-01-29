@@ -4,8 +4,8 @@ const Quote = (props) => {
   return (
     <div className="quote-container">
       <blockquote className="quote">
-        <p>random text</p>
-        <footer>random author</footer>
+        <p>{props.text}</p>
+        <footer>{props.author}</footer>
       </blockquote>
     </div>
   );
