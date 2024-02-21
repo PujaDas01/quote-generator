@@ -5,7 +5,7 @@ const Quote = (props) => {
     <div className="quote-container">
       <blockquote className="quote">
         <p>{props.text}</p>
-        <footer>- {props.author}</footer>
+        <footer>{props.author}</footer>
       </blockquote>
     </div>
   );
