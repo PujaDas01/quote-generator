@@ -10,6 +10,11 @@ body {
     height: 100vh;
 }
 
+.app {
+    overflow-y: scroll;
+    height: 100vh;
+}
+
 h1 {
     text-align: center;
     font-size: 2.5rem;
